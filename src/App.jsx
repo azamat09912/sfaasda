@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./components/Header/Header";
 import Main1 from "./components/Main1/Main1";
 import Main2 from "./components/Main2/Main2";
 import Main3 from "./Components/Main3/Main3";
@@ -10,7 +9,8 @@ import Main6 from "./Components/Main6/Main6";
 import Main7 from "./Components/Main7/Main7";
 import Main8 from "./Components/Main8/Main8";
 import Main9 from "./Components/Main9/Main9";
-import Footer from "./Components/Footer/Footer";
+import Header from './Components/Header/Header'
+import Footer from './Components/Footer/Footer'
 import Ai from "./components/Ai/Ai";
 import "./App.css";
 
