@@ -1,6 +1,6 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Main1 from "./components/Main1/Main1";
+/* import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; */
+/* import Main1 from "./components/Main1/Main1";
 import Main2 from "./components/Main2/Main2";
 import Main3 from "./Components/Main3/Main3";
 import Main4 from "./Components/Main4/Main4";
@@ -12,7 +12,22 @@ import Main9 from "./Components/Main9/Main9";
 import Header from './Components/Header/Header'
 import Footer from './Components/Footer/Footer'
 import Ai from "./components/Ai/Ai";
-import "./App.css";
+import "./App.css"; */
+
+import React from "react";
+import { BrowserRouter as Router,Routes, Route } from "react-router-dom";
+import Main1 from "./Components/Main1/Main1"
+import Main2 from "./Components/Main2/Main2"
+import Main3 from "./Components/Main3/Main3"
+import Main4 from "./Components/Main4/Main4"
+import Main5 from "./Components/Main5/Main5"
+import Main6 from "./Components/Main6/Main6"
+import Main7 from "./Components/Main7/Main7"
+import Main8 from "./Components/Main8/Main8"
+import Main9 from "./Components/Main9/Main9"
+import Header from './Components/Header/Header'
+import Footer from './Components/Footer/Footer'
+import Ai from "./Components/Ai/Ai"
 
 // Основной лейаут с Header и Footer
 const MainLayout = ({ children }) => (
