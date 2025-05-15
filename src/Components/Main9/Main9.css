@@ -1,0 +1,149 @@
+.video-section {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 400px;
+  padding: 40px;
+  box-sizing: border-box;
+
+}
+
+.video-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: -120px;
+  width: 60%;   
+  height: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 20px;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.video-link:hover .video-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.play-button {
+  background-color: #a4dd00;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-icon {
+  width: 32px;
+  height: 32px;
+  color: black;
+}
+
+.video-content100 {
+  position: relative;
+  width: 50%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  z-index: 1;
+  right: 180px;
+  top: -60px;
+}
+
+.title100 {
+  font-size: 48px;
+  color: #a137af;
+  margin-bottom: 20px;
+}
+
+.subtitle100 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.text100 {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  max-width: 500px;
+}
+
+.more-btn100 {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #a4dd00;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .video-section {
+    padding: 20px;
+  }
+
+  .video-link {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .video-thumbnail {
+    width: 100%;
+    height: auto;
+  }
+
+  .video-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .video-content100 {
+    width: 100%;
+    position: absolute; /* меняем на absolute для подъема наверх */
+    top: 10px; /* немного отступаем сверху */
+    left: 50%;
+    transform: translateX(-50%); /* центрируем по горизонтали */
+    text-align: center;
+  }
+
+  .title100 {
+    font-size: 36px;
+    margin-top: 230px;
+  }
+
+  .subtitle100 {
+    font-size: 24px;
+  }
+
+  .text100 {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .more-btn100 {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}

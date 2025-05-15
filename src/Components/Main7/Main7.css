@@ -1,0 +1,263 @@
+.verybigtext{
+    font-size: 70px;
+   color: rgb(174, 4, 212);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 2%;
+}
+.otherbigtext{
+    margin-left: 13%;
+}
+.imgcherry{
+    margin-left: 1200px;
+    margin-top: -600px;
+}
+
+
+.photomainimg10 {
+    width: 20%;
+    border-radius: 50%;
+    height: 20%;
+    object-fit: cover;
+    margin-left: 20px;
+    transition-duration: 0.9s;
+}
+
+.photomainimg10:hover {
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.imginttext10 {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.999);
+    margin-left: 70px;
+    font-weight: 400;
+    margin-left: 120px;
+}
+
+.weightinttext10 {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(40, 39, 39, 0.999);
+    margin-left: 130px;
+    margin-top: 60px;
+    font-weight: 400;
+}
+
+
+.maindiv20 {
+    margin-top: -458px;
+    margin-left: 380px;
+}
+
+.photomainimg20 {
+    width: 27%;
+    border-radius: 50%;
+    height: 20%;
+    object-fit: cover;
+    margin-left: 20px;
+    transition-duration: 0.9s;
+}
+
+.photomainimg20:hover {
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.imginttext20 {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.999);
+    margin-left: 70px;
+    font-weight: 400;
+    margin-left: 120px;
+
+}
+
+.weightinttext20 {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(40, 39, 39, 0.999);
+    margin-left: 130px;
+    margin-top: 60px;
+    font-weight: 400;
+}
+
+
+.maindiv1 {
+    margin-top: -498px;
+    margin-left: 1150px;
+}
+
+.photomainimg30 {
+    width: 21%;
+    border-radius: 50%;
+    height: 82%;
+    object-fit: cover;
+    margin-left: 20px;
+    transition-duration: 0.9s;
+}
+
+.photomainimg30:hover {
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.imginttext30 {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.999);
+    margin-left: 70px;
+    font-weight: 400;
+    margin-left: 120px;
+}
+
+.weightinttext30 {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(40, 39, 39, 0.999);
+    margin-left: 130px;
+    font-weight: 400;
+    margin-top: 90px;
+}
+
+.maindiv40 {
+    position: absolute;
+    margin-top: -523px;
+    margin-left: 370px;
+}
+.photomainimg40 {
+    width: 100%;
+    border-radius: 50%;
+    height: 82%;
+    object-fit: cover;
+    margin-left: 20px;
+    transition-duration: 0.9s;
+}
+
+.photomainimg40:hover {
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.imginttext40 {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.999);
+    margin-left: 70px;
+    font-weight: 400;
+    margin-left: 120px;
+}
+
+.weightinttext40 {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(40, 39, 39, 0.999);
+    margin-left: 130px;
+    font-weight: 400;
+}
+
+.maindiv50 {
+    position: absolute;
+    margin-top: -523px;
+    margin-left: 770px;
+}
+.photomainimg50 {
+    width: 100%;
+    border-radius: 50%;
+    height: 82%;
+    object-fit: cover;
+    margin-left: 20px;
+    transition-duration: 0.9s;
+}
+
+.photomainimg50:hover {
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.imginttext50 {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.999);
+    margin-left: 70px;
+    font-weight: 400;
+    margin-left: 120px;
+}
+
+.weightinttext50 {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(40, 39, 39, 0.999);
+    margin-left: 130px;
+    font-weight: 400;
+}
+.finishtext1{
+    position: absolute;
+    margin-top: -900px;
+    margin-left: 900px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 30px;
+}
+@media (max-width: 768px) {
+  .verybigtext {
+    font-size: 36px;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .otherbigtext {
+    margin-left: 0;
+  }
+
+  .imgcherry {
+    margin: 20px auto;
+    display: block;
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .photomainimg10,
+  .photomainimg20,
+  .photomainimg30,
+  .photomainimg40,
+  .photomainimg50 {
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .imginttext10,
+  .imginttext20,
+  .imginttext30,
+  .imginttext40,
+  .imginttext50,
+  .weightinttext10,
+  .weightinttext20,
+  .weightinttext30,
+  .weightinttext40,
+  .weightinttext50 {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .maindiv20,
+  .maindiv30,
+  .maindiv40,
+  .maindiv50 {
+    position: static;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .finishtext1 {
+    position: static;
+    text-align: center;
+    margin: 40px auto;
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,294 @@
+.main5text {
+    font-size: 120px;
+    color: rgb(155, 9, 187);
+
+    letter-spacing: 4px;
+    margin-left: 30px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main5inttext {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.756);
+    margin-left: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.photomainimg1 {
+    width: 20%;
+    border-radius: 50%;
+    height: 20%;
+    object-fit: cover;
+    margin-left: 20px;
+    transition-duration: 0.9s;
+}
+
+.photomainimg1:hover {
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.imginttext {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.999);
+    margin-left: 70px;
+    font-weight: 400;
+}
+
+.weightinttext {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(40, 39, 39, 0.999);
+    margin-left: 130px;
+    margin-top: 60px;
+    font-weight: 400;
+}
+
+
+
+
+.maindiv {
+    margin-top: -458px;
+    margin-left: 580px;
+}
+
+.photomainimg2 {
+    width: 33%;
+    border-radius: 50%;
+    height: 20%;
+    object-fit: cover;
+    margin-left: 20px;
+    transition-duration: 0.9s;
+}
+
+.photomainimg2:hover {
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.imginttext1 {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.999);
+    margin-left: 70px;
+    font-weight: 400;
+}
+
+.weightinttext1 {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(40, 39, 39, 0.999);
+    margin-left: 130px;
+    margin-top: 60px;
+    font-weight: 400;
+}
+
+
+
+.maindiv1 {
+    margin-top: -498px;
+    margin-left: 1150px;
+}
+.photomainimg3 {
+    width: 84%;
+    border-radius: 50%;
+    height: 82%;
+    object-fit: cover;
+    margin-left: 20px;
+    transition-duration: 0.9s;
+}
+
+.photomainimg3:hover {
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.imginttext3 {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.999);
+    margin-left: 70px;
+    font-weight: 400;
+}
+
+.weightinttext3 {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(40, 39, 39, 0.999);
+    margin-left: 130px;
+    font-weight: 400;
+    margin-top: 90px;
+}
+
+
+
+.maindiv4 {
+    margin-top: 98px;
+    margin-left: 1150px;
+}
+.photomainimg4 {
+    width: 84%;
+    border-radius: 50%;
+    height: 82%;
+    object-fit: cover;
+    margin-left: 20px;
+    transition-duration: 0.9s;
+}
+
+.photomainimg4:hover {
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.imginttext4 {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.999);
+    margin-left: 70px;
+    font-weight: 400;
+}
+
+.weightinttext4 {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(40, 39, 39, 0.999);
+    margin-left: 130px;
+    font-weight: 400;
+}
+
+.maindiv5 p{
+    margin-top: -370px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgba(40, 39, 39, 0.999);
+    font-weight: 400;
+}
+
+.more-btn2 {
+  display: inline-block;
+  margin-top: 200px;
+  padding: 13px 28px;
+  margin-left: 22px;
+  background-color: #63c622;
+  color: rgb(13, 2, 2);
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 19px;
+  font-family: cursive;
+  box-shadow: 0 8px 20px rgba(115, 225, 41, 0.3);
+  transition: all 0.4s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.more-btn2:hover {
+  background-color: #7cec13d5;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(115, 225, 41, 0.5);
+}
+/* Мобильные стили (до 768px) */
+@media only screen and (max-width: 768px) {
+    .main5text {
+        font-size: 50px;
+        margin-left: 15px;
+        letter-spacing: 2px;
+    }
+
+    .main5inttext {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    .photomainimg1, 
+    .photomainimg2, 
+    .photomainimg3, 
+    .photomainimg4 {
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        border-radius: 10%;
+    }
+
+    .photomainimg1:hover, 
+    .photomainimg2:hover, 
+    .photomainimg3:hover, 
+    .photomainimg4:hover {
+        border-radius: 5%;
+    }
+
+    .imginttext,
+    .imginttext1,
+    .imginttext3,
+    .imginttext4 {
+        font-size: 20px;
+        margin-left: 10%;
+        text-align: center;
+    }
+
+    .weightinttext,
+    .weightinttext1,
+    .weightinttext3,
+    .weightinttext4 {
+        font-size: 16px;
+        margin-left: 10%;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .maindiv,
+    .maindiv1,
+    .maindiv4 {
+        margin-top: 30px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .maindiv1 {
+        display: none;
+    }
+    .maindiv5 {
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+    .maindiv5 p {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .more-btn2 {
+        margin-top: 30px;
+        margin-left: 15px;
+        padding: 10px 20px;
+        font-size: 16px;
+        display: block;
+        width: calc(100% - 30px);
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+/* Дополнительно для очень маленьких экранов */
+@media only screen and (max-width: 480px) {
+    .main5text {
+        font-size: 40px;
+    }
+
+    .main5inttext {
+        font-size: 18px;
+    }
+
+    .imginttext,
+    .imginttext1,
+    .imginttext3,
+    .imginttext4 {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,126 @@
+
+.img-wr1{
+    width: 460px;
+    margin-bottom: -5px;
+}
+.bgphon{
+    margin-top: 120px;
+    background-color: rgb(186, 24, 188);
+}
+.bg-fr-ph{
+    margin-left: 700px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -520px;
+}
+
+.alot1{
+    width: 80px;
+    height: 80px;
+    margin-left: 690px;
+    border-radius: 50%;
+}
+.alot2{
+    width: 80px;
+    height: 80px;
+    margin-left: 690px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.alot3{
+    width: 80px;
+    margin-left: 890px;
+    margin-top: -490px;
+    border-radius: 50%;
+}
+
+.alottext{
+    margin-left: 700px;
+    color: white;
+
+}
+.alottext1{
+    margin-left: 700px;
+    color: white;
+}
+.alottext21{
+    position: absolute;
+    left: 890px;
+    color: rgb(255, 255, 255);
+    margin-top: -250px;
+}
+.more-btn21 {
+  display: inline-block;
+  margin-top: -110px;
+  padding: 13px 38px;
+  margin-left: 922px;
+  background-color: #63c622;
+  color: rgb(13, 2, 2);
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 19px;
+  font-family: cursive;
+  box-shadow: 0 8px 20px rgba(115, 225, 41, 0.3);
+  transition: all 0.4s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.more-btn21:hover {
+  background-color: #7cec13d5;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(115, 225, 41, 0.5);
+}
+@media (max-width: 768px) {
+    .img-wr1 {
+        width: 80%;
+        max-width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .bg-fr-ph {
+        margin: 20px auto;
+        text-align: center;
+        font-size: 28px;
+        color: white;
+    }
+
+    .alotimg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .alot1,
+    .alot2,
+    .alot4 {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin: 0;
+        position: static;
+        margin-top: -270px;
+        display: flex;
+        gap: 12px;
+    }
+
+    .alottext,
+    .alottext1,
+    .alottext2 {
+        margin: 8px 0 0 0;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        position: static;
+    }
+
+    .bgphon {
+        margin-top: 40px;
+        padding: 20px;
+        background-color: rgb(186, 24, 188);
+    }
+}
